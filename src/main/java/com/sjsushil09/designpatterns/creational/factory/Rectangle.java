@@ -1,4 +1,4 @@
-package com.sjsushil09.designpatterns.factory;
+package com.sjsushil09.designpatterns.creational.factory;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,7 +10,7 @@ public class Rectangle implements Area{
 
     private int length,breadth;
     @Override
-    public double calculatArea() {
+    public double calculateArea() {
         return this.getLength() * this.getBreadth();
     }
 }

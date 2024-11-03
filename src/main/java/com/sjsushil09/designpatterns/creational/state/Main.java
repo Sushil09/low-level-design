@@ -1,4 +1,4 @@
-package com.sjsushil09.designpatterns.state;
+package com.sjsushil09.designpatterns.creational.state;
 
 interface FanState{
     public void turnDown(FanContext fanContext);

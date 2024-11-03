@@ -1,4 +1,4 @@
-package com.sjsushil09.designpatterns.factory;
+package com.sjsushil09.designpatterns.creational.factory;
 
 public class ShapeFactory {
    public static Area calcAre(SHAPES shape, int...sides) {

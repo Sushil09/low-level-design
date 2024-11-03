@@ -1,4 +1,4 @@
-package com.sjsushil09.designpatterns.factory;
+package com.sjsushil09.designpatterns.creational.factory;
 
 public enum SHAPES {
     CIRCLE,

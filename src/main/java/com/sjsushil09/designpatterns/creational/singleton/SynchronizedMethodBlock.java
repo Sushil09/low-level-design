@@ -1,4 +1,4 @@
-package com.sjsushil09.designpatterns.singleton;
+package com.sjsushil09.designpatterns.creational.singleton;
 
 public class SynchronizedMethodBlock {
     private static SynchronizedMethodBlock synchronizedMethodBlock = null;

@@ -1,4 +1,4 @@
-package com.sjsushil09.designpatterns.state.coffeevending.entities;
+package com.sjsushil09.designpatterns.creational.state.coffeevending.entities;
 
 public class Cappuccino extends Coffee{
     @Override

@@ -1,4 +1,4 @@
-package com.sjsushil09.designpatterns.factory;
+package com.sjsushil09.designpatterns.creational.factory;
 
 public class Demo {
     public static void main(String[] args) {
@@ -6,8 +6,8 @@ public class Demo {
         Area rectangleArea = ShapeFactory.calcAre(SHAPES.RECTANGLE, 5, 2);
         Area circle = ShapeFactory.calcAre(SHAPES.CIRCLE, 4);
 
-        System.out.println(squareArea.calculatArea());
-        System.out.println(rectangleArea.calculatArea());
-        System.out.println(circle.calculatArea());
+        System.out.println(squareArea.calculateArea());
+        System.out.println(rectangleArea.calculateArea());
+        System.out.println(circle.calculateArea());
     }
 }

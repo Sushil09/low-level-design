@@ -1,4 +1,4 @@
-package com.sjsushil09.designpatterns.factory;
+package com.sjsushil09.designpatterns.creational.factory;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,7 +11,7 @@ public class Square implements Area{
 
     private int side;
     @Override
-    public double calculatArea() {
+    public double calculateArea() {
         return Math.pow(this.getSide(),2);
     }
 }
